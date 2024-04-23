@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg ,#e66465, #9198e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: lightgrey;
+    width: 45%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.addTask{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+#addBar{
+    width: 50%;
+    padding: 10px 5px;
+    margin-right: 0;
+    border: lightgray;
+    border-radius: 20px;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    outline: none;
+}
+
+#addBtn{
+    background-color: orange;
+    padding: 10px 18px;
+    margin-left: 0;
+    font-size: 18px;
+    border-radius: 20px;
+    border: lightgray;
+    outline: none;
+    position: relative;
+    right: 50px;
+}
+
+.listContainer{
+    width: 100%;
+    height: 60%;
+    margin-left:7rem;
+    margin-top: 2rem;
+    /* background-color: yellow; */
+    /* text-align: center; */
+}
+
+.listContainer ul{
+    list-style-type: none;
+}
+
+.listContainer ul li{
+    font-size: 25px; 
+    padding: 5px; 
+}
+.LI-styling{
+    font-size: 25px; 
+    padding: 5px; 
+    list-style: none;
+}
+.circle{
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(136, 120, 99);
+}
+
+
+.LI{
+    text-decoration: line-through;
+    color: rgb(136, 120, 99);
+}
+.deletBtn{
+    margin-left: 50px;
+    color: black;
+}
+
+
